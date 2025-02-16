@@ -278,17 +278,17 @@
 
 @media (max-width:425px){
     .first-card-div,.second-card-div,.third-card-div,.fourth-card-div{
-        width:380px;
+        width:100%;
     }
 }
 @media (max-width:405px){
     .first-card-div,.second-card-div,.third-card-div,.fourth-card-div{
-        width:350px;
+        width:100%;
     }
 }
 @media (max-width:370px){
     .first-card-div,.second-card-div,.third-card-div,.fourth-card-div{
-        width:300px;
+        width:100%;
     }
     .about-section
     {
