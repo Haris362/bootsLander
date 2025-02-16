@@ -1,0 +1,303 @@
+.contact-section{
+    padding-top: 50px;
+    width: 100%;
+    min-height: 80vh;
+    padding-bottom: 30px;
+    background-color: var(--text-color);
+}
+.contact-section-address-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contact-section-heading-div{
+    padding-top: 70px;
+    text-align: center;
+}
+.contact-section-heading1,.call-section-heading1,.email-section-heading1{
+    font-size: 18px;
+    color:var(--new-color);
+    font-weight: 300;
+}
+.contact-section-heading2,.contact-section-heading2,.email-section-heading2{
+    font-size: 32px;
+    color: var(--bg-color);
+}
+.contact-address,.call-address,.email-address{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 380px;
+}
+.address-icon-div:hover{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    transition: 0.6s all ease;
+    cursor: pointer;
+}
+.call-icon-div:hover{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    transition: 0.6s all ease;
+    cursor: pointer;
+}
+.email-icon-div:hover{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    transition: 0.6s all ease;
+    cursor: pointer;
+}
+.address-icon-div,.call-icon-div,.email-icon-div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: color-mix(in srgb, var(--primary-color), transparent 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: lighter;
+    color: var(--primary-color);
+}
+.address-heading1,.call-heading1,.email-heading1{
+    font-size: 20px;
+    color: var(--bg-color);
+    font-weight: 500;
+}
+.address-heading2,.call-heading2,.email-heading2{
+    font-size: 15px;
+    color: var(--defualt-color);
+    font-weight: 400;
+}
+.name-email-inputs-div{
+    display: flex;
+    gap: 20px;
+}
+.name-input,.email-input{
+    width: 416px;
+    height: 43px;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: var(--defualt-color);
+    outline: none;
+    border: none;
+    border: 1.3px solid var(--new-color);
+}
+.name-input:focus{
+    border: 1.3px solid var(--primary-color);
+}
+.email-input:focus{
+    border: 1.3px solid var(--primary-color);
+}
+.subject-input{
+    width:856px;
+    height: 43px;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: var(--defualt-color);
+    outline: none;
+    border: none;
+    border: 1.3px solid var(--new-color);
+}
+.subject-input:focus{
+    border: 1.3px solid var(--primary-color);
+}
+.message-area{
+    width: 856px;
+    height: 148px;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: var(--defualt-color);
+    outline: none;
+    border: none;
+    border: 1.3px solid var(--new-color);
+}
+::placeholder{
+    font-size: 16px;
+}
+.message-area:focus{
+    border: 1.3px solid var(--primary-color);
+}
+
+.submit-button{
+    width: 165px;
+    height: 44px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-size: 20px;
+    border: none;
+    border-radius: 22px;
+}
+.contact-section-button{
+    display: flex;
+    justify-content: center;
+
+}
+.address-inputs-main-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
+}
+@media (max-width:1460px){
+    .name-input,.email-input{
+        width: 380px;
+        height: 42px;
+    }
+    .subject-input{
+        width: 780px;
+        height: 42px;
+    }
+    .message-area{
+        width: 780px;
+    }
+}
+@media (max-width:1360px){
+    .contact-address,.call-address,.email-address{
+        width: 320px;
+    }
+    .name-input,.email-input{
+        width: 355px;
+        height: 42px;
+    }
+    .subject-input{
+        width: 730px;
+    }
+    .message-area{
+        width: 730px;
+    }
+    .submit-button{
+        font-size: 17px;
+    }
+}
+@media (max-width:1170px){
+    .contact-address,.call-address,.email-address{
+        width: 300px;
+    }
+    .name-input,.email-input{
+        width: 315px;
+        height: 38px;
+    }
+    .subject-input{
+        width: 650px;
+        height: 38px;
+    }
+    .message-area{
+        width: 650px;
+    }
+}
+@media (max-width:1050px){
+    .contact-address,.call-address,.email-address{
+        width: 300px;
+    }
+    .name-input,.email-input{
+        width: 275px;
+        height: 38px;
+    }
+    .subject-input{
+        width: 570px;
+        height: 38px;
+    }
+    .message-area{
+        width: 570px;
+    }
+}
+@media (max-width:1015px){
+    .contact-address,.call-address,.email-address{
+        width: 650px;
+    }
+    .name-input,.email-input{
+        width: 650px;
+        height: 38px;
+    }
+    .subject-input{
+        width: 650px;
+        height: 38px;
+    }
+    .message-area{
+        width: 650px;
+    }
+    .address-inputs-main-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .name-email-inputs-div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:730px){
+    .contact-address,.call-address,.email-address{
+        width: 480px;
+    }
+    .name-input,.email-input{
+        width: 480px;
+        height: 38px;
+    }
+    .subject-input{
+        width: 480px;
+        height: 42px;
+    }
+    .message-area{
+        width: 480px;
+    }
+}
+@media (max-width:520px){
+    .contact-address,.call-address,.email-address{
+        width: 400px;
+    }
+    .name-input,.email-input{
+        width: 400px;
+        height: 38px;
+    }
+    .subject-input{
+        width: 400px;
+    }
+    .message-area{
+        width: 400px;
+    }
+}
+@media (max-width:465px){
+    .contact-address,.call-address,.email-address{
+        width: 365px;
+    }
+    .name-input,.email-input{
+        width: 365px;
+    }
+    .subject-input{
+        width: 365px;
+    }
+    .message-area{
+        width: 365px;
+    }
+}
+@media (max-width:405px){
+    .contact-address,.call-address,.email-address{
+        width: 330px;
+    }
+    .name-input,.email-input{
+        width: 330px;
+    }
+    .subject-input{
+        width: 330px;
+    }
+    .message-area{
+        width: 330px;
+    }
+}
+@media (max-width:350px){
+    .contact-address,.call-address,.email-address{
+        width: 300px;
+    }
+    .name-input,.email-input{
+        width: 300px;
+    }
+    .subject-input{
+        width: 300px;
+    }
+    .message-area{
+        width: 300px;
+    }
+}

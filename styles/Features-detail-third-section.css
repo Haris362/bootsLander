@@ -1,0 +1,103 @@
+.features-detail-third-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.features-detail-third-section-heading{
+    font-size: 33px;
+    color: var(--bg-color);
+}
+.features-detail-third-section-title{
+    font-size: 18px;
+    color: var(--new-color);
+}
+
+.points{
+    display: flex;
+    gap: 10px;
+}
+.features-detail-third-section-text-container ul{
+    font-size: 17px;
+    color: var(--new-color);
+
+}
+.features-detail-third-section-text-container{
+    padding-top: 80px;
+    padding-left: 35px;
+}
+.features-detail-third-section-img{
+    width: 460px;
+
+}
+@media (max-width:1580px) {
+    .features-detail-third-section-img{
+        width:430px;
+    }
+}
+@media (max-width:1360px) {
+    .features-detail-third-section-heading{
+        font-size: 29px;
+    }
+    .features-detail-third-section-title{
+        font-size: 16px;
+    }
+    .features-detail-third-section-text-container ul{
+        font-size: 15px;
+    }
+}
+@media (max-width:1015px) {
+    .features-detail-third-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .features-detail-third-section-heading{
+        font-size: 32px;
+    }
+    .features-detail-third-section-title{
+        font-size: 16.5px;
+    }
+    .features-detail-third-section-text-container ul{
+        font-size: 15px;
+    }
+    .features-detail-third-section-img{
+        width: 380px;
+    }
+    .features-detail-third-section-text-container{
+        padding-left: 0px;
+    }
+}
+@media (max-width:700px) {
+        .features-detail-third-section-heading{
+            font-size: 28px;            
+        }
+        .features-deatil-second-section-title{
+            font-size: 18px;
+        }
+        .features-detail-third-section-text-container ul{
+            font-size: 16px;
+        }
+    }
+@media (max-width:600px) {
+    .features-detail-third-section-img{
+        width: 300px;
+    }
+    .features-detail-third-section-title{
+        font-size: 17px;
+    }
+}
+@media (max-width:430px) {
+    .features-detail-third-section-img{
+        width: 250px;
+    }
+    .features-detail-third-section-heading{
+        font-size: 25px;            
+    }
+    .features-detail-third-section-title{
+        font-size: 14.5px;
+    }
+    .features-detail-third-section-text-container ul{
+        font-size: 14px;
+    }
+}

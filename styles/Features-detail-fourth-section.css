@@ -1,0 +1,104 @@
+.features-detail-fourth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features-detail-fourth-section-img{
+    width: 460px;
+}
+.features-detail-fourth-section-heading{
+    font-size: 33px;
+    color: var(--bg-color);
+}
+.features-detail-fourth-section-title{
+    padding-top: 5px;
+    font-size: 18px;
+    color: var(--new-color);
+}
+.features-detail-fourth-section-paragraph{
+    padding-top: 20px;
+    font-size: 17px;
+    color: var(--new-color);
+}
+@media (max-width:1450px) {
+    .features-detail-fourth-section-heading{
+        font-size: 30px;
+    }
+}
+@media (max-width:1360px) {
+    .features-detail-fourth-section-heading{
+        font-size: 27px;
+    }
+    .features-detail-fourth-section-title{
+        font-size: 16px;
+    }
+    .features-detail-fourth-section-paragraph{
+        font-size: 15px;
+    }
+}
+@media (max-width:1320px) {
+    .features-detail-fourth-section-img{
+        width:420px ;
+    }
+    
+}
+@media (max-width:1015px) {
+    .features-detail-fourth-section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+@media (max-width:768px){
+
+}
+@media (max-width:700px) {
+    .features-detail-fourth-section-heading{
+        font-size: 25px;            
+    }
+    .features-deatil-fourth-section-title{
+        font-size: 20px;
+    }
+    .features-detail-fourth-section-paragraph{
+        font-size: 16px;
+    }
+}
+@media (max-width:600px) {
+    .features-detail-fourth-section-img{
+        width:430px ;
+    }
+}
+@media (max-width:500px) {
+
+}
+@media (max-width:430px) {
+    .features-detail-fourth-section-img{
+        width: 330px;
+    }
+}
+@media (max-width:395px) {
+    .features-detail-fourth-section-heading{
+        font-size: 25px;            
+    }
+    .features-deatil-fourth-section-title{
+        font-size: 15px;
+    }
+    .features-detail-fourth-section-paragraph{
+        font-size: 14px;
+    }
+}
+@media (max-width:375px) {
+    .features-detail-fourth-section{
+        padding-bottom: 50px;
+    }
+}
+@media (max-width:370px) {
+    .features-detail-fourth-section-img{
+        width: 290px;
+    }
+}
+@media (max-width:340px) {
+    .features-detail-fourth-section-img{
+        width: 270px;
+    }
+}

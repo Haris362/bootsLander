@@ -1,0 +1,331 @@
+.home-section{
+    background-color: var(--bg-color);
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    padding:0px 100px;
+    padding-bottom: 180px;
+}
+.home-button-headings-div{
+    padding-top: 380px;
+}
+.home-button-headings-div h1{
+    color: var(--text-color2);
+    font-size: 50px;
+}
+.home-section-paragraph-div{
+    margin-top: 15px;
+}
+.home-paragraph ,.home-paragraph2{
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--text-color2);
+}
+.home-section-button{
+    width: 140px;
+    height: 44px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color:var(--text-color);
+    font-size: 15px ;
+    border-radius: 30px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.home-section-button:hover{
+    background:color-mix(in srgb, var(--primary-color), transparent 15%);
+}
+.home-img-div{
+    position: relative;
+    animation: animate 2s infinite alternate;
+}
+.home-img{
+    width: 380px;
+    min-width: 300px;
+    height: 540px;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+
+}
+.home-heading-span{
+    text-decoration: underline var(--primary-color);
+    color: var(--text-color);
+} 
+@keyframes animate{
+    from{
+        transform: translateY(20px);
+    }
+}
+
+@media (max-width:1920px){
+    .home-section{
+        padding: 0px 150px;
+        padding-bottom: 300px;
+    }
+    .home-img{
+        left: 400px;
+        width: 450px;
+        height: 650px;
+    }
+    .home-button-headings-div h1{
+        color: var(--text-color2);
+        font-size: 55px;
+    }
+    .home-paragraph ,.home-paragraph2{
+        font-size: 23px;
+        font-weight: 500;
+        color: var(--text-color2);
+    }
+
+    .home-section-button{
+        width: 185px;
+        height: 54px;
+        font-size: 20px;
+    }
+}
+@media (max-width:1705px){
+    .home-section{
+        padding: 0px 100px;
+    }
+}
+@media (max-width:1640px){
+   .home-img{
+    left: 220px;
+   }
+}
+@media (max-width:1475px){
+
+    .home-button-headings-div h1{
+        color: var(--text-color2);
+        font-size: 55px;
+    }
+    .home-paragraph ,.home-paragraph2{
+        font-size: 25px;
+        font-weight: 500;
+        color: var(--text-color2);
+    }
+ }
+ @media (max-width:1440px) {
+    .home-section{
+        height: 900px;
+    }
+ }
+ @media (max-width:1440px) {
+    .home-button-headings-div{
+        padding-top: 320px;
+    }
+    .home-button-headings-div h1{
+        font-size: 50px;
+    }
+    .home-paragraph ,.home-paragraph2{
+        font-size: 23px;
+    }
+}
+ @media (max-width:1400px) {
+    .home-section-button{
+        width: 180px;
+        height: 50px;
+    }
+    .home-img{
+        width: 400px;
+        height: 520px;
+    }
+}
+
+
+@media (max-width:1360px) {
+    .home-img{
+        width: 370px;
+        height: 480px;
+    }
+    .home-button-headings-div h1{
+        font-size: 50px;
+    }
+    .home-button-headings-div p{
+        font-size: 22px;
+    }
+    .home-section-button{
+        width: 150px;
+        height: 45px;
+        font-size: 17px;
+    }
+}
+@media (max-width:1350px){
+    .home-img{
+        left: 160px;
+    }
+}
+
+ @media (max-width:1320px) {
+    .home-section{
+        padding-bottom: 100px;
+    }
+
+ }
+ @media (max-width:1270px){
+    .home-img{
+        left: 50px;
+    }
+}
+
+@media (max-width:1225px){
+    .home-img{
+        left: 70px;
+    }
+}
+@media (max-width:1165px){
+    .home-img{
+        left: 30px;
+    }
+}
+@media (max-width:1140px){
+   .home-section{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+    justify-content: center;
+    gap: 900px;
+    padding-bottom: 400px;
+    height: 1200px;
+   }
+   .home-img{
+    left: 150px;
+    top: 470px;
+    width: 520px;
+    height: 700px;
+   }
+   .home-button-headings-div h1{
+    font-size: 55px;
+    font-weight: 600;
+    }
+    .home-section-button{
+        width: 190px;
+        height: 50px;
+        font-size: 18px;
+    }
+}
+@media (max-width:910px) {
+    .home-img{
+        left: 120px;
+        top: 490px;
+        width: 480px;
+        height: 640px; 
+    }
+    .home-button-headings-div h1{
+        font-size: 48px;
+        font-weight: 600;
+        }
+}
+@media (max-width:820px) {
+    .home-section{
+        padding-left: 60px;
+    }
+}
+@media (max-width:760px) {
+    .home-img{
+        left: 80px;
+        top: 490px;
+        width: 440px;
+        height: 660px; 
+    }
+}
+@media (max-width:630px) {
+    .home-img{
+        left: 20px;
+        top: 520px;
+        width: 400px;
+        height: 620px; 
+    }
+}
+@media(max-width:580px){
+    .home-section{
+        padding-left: 50px;
+        padding-bottom: 480px;
+    }
+    .home-button-headings-div h1{
+        font-size: 40px;
+    }
+    .home-paragraph ,.home-paragraph2{
+        font-size: 18px;
+    }
+}
+@media (max-width:525px) {
+    .home-section{
+        padding-left: 25px;
+    }
+    .home-img{
+        left: 35px;
+    }
+}
+@media (max-width:470px){
+    .home-img{
+        width:380px;
+        left: 15px;
+    }
+
+}
+@media (max-width:435px){
+    .home-section{
+        padding-left: 25px;
+    }
+    .home-img{
+        width: 350px;
+    }
+    .home-button-headings-div h1{
+        font-size: 30px;
+    }
+    .home-paragraph ,.home-paragraph2{
+        font-size: 18px;
+    }
+}
+@media (max-width:395px){
+    .home-img{
+        width:340px;
+        height: 520px;
+        left: 0px;
+    }
+    .home-section{
+        gap: 800px;
+    }
+}
+@media (max-width:375px){
+  .home-img{
+    width: 280px;
+    height: 450px;
+}
+.home-section{
+    gap: 700px;
+}
+}
+@media (max-width:335px){
+    .home-img{
+      width: 200px;
+    }
+    .home-section{
+        padding-left: 10px;
+    }
+}
+@media(max-width:320px){
+    .home-img{
+        width: 270px;
+        height: 470px;
+        top: 450px;
+    }
+    .home-section{
+        gap: 700px;
+    }
+    .home-section{
+        padding-bottom: 480px;
+    }
+    .home-button-headings-div h1{
+        font-size: 28px;
+    }
+    .home-paragraph ,.home-paragraph2{
+        font-size: 12px;
+    }
+    .home-section-button{
+        width: 150px;
+        height: 40px;
+    }
+}

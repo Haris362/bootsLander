@@ -1,0 +1,181 @@
+.questions-section{
+    width: 100%;
+    background-color: var(--defualt-bg-color);
+    padding-top: 50px;
+    min-height: 80vh;
+}
+.questions-section-heading{
+    font-size: 30px;
+    color: var(--bg-color);
+    font-weight: 400;
+}
+.questions-section-heading-span{
+    font-size: 34px;
+    color: var(--bg-color);
+    font-weight: bold;
+}
+.questions-section-heading-div{
+    text-align: center;
+}
+.questions-section-paragraph{
+    color: color-mix(in srgb, var(--default-color), transparent 30%);
+    font-size: 18px;
+}
+.questions-section-img{
+    width: 768px;
+    height: 575px;
+}
+.questions-heading-main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.questions-section-img-questions-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
+}
+.question1-div,.question2-div,.question3-div{
+    width:990px;
+    height:74px;
+    background-color: var(--text-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 20px;
+    font-size: 19px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: var(--bg-color);
+}
+.questions-section-icons{
+    font-size: 30px;
+    color: var(--primary-color);
+    font-weight: lighter;
+}
+@media(max-width:1840px){
+    .questions-section-img{
+        width: 700px;
+        height: 550px;
+    }
+    .question1-div,.question2-div,.question3-div{
+        width:850px;
+        height:64px;
+    }
+}
+@media(max-width:1630px){
+    .questions-section-img{
+        width: 600px;
+        height: 500px;
+    }
+    .question1-div,.question2-div,.question3-div{
+        width:780px;
+        height:58px;
+        font-size: 16px;
+    }
+}
+@media(max-width:1424px){
+    .questions-section-img{
+        width: 500px;
+        height: 450px;
+    }
+    .question1-div,.question2-div,.question3-div{
+        width:700px;
+        height:58px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+@media(max-width:1255px){
+    .questions-section-img{
+        width: 400px;
+        height: 350px;
+    }
+    .question1-div,.question2-div,.question3-div{
+        width:600px;
+        height:50px;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 10px 10px;
+    }
+}
+@media(max-width:1050px){
+    .questions-section-img{
+        width: 400px;
+        height: 350px;
+    }
+    .question1-div,.question2-div,.question3-div{
+        width:500px;
+        height:50px;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 10px 10px;
+    }
+}
+@media (max-width:1015px) {
+    .questions-section-img-questions-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .questions-section-img{
+        width: 650px;
+        height: 500px;
+    }
+    .question1-div,.question2-div,.question3-div{
+        width:650px;
+        height:50px;
+        padding: 20px 20px;
+    }
+}
+@media (max-width:730px){
+    .questions-section-img{
+        width: 480px;
+        height: 400px;
+    }
+    .question1-div,.question2-div,.question3-div{
+        width:480px;
+        height:50px;
+    }
+}
+@media (max-width:520px){
+    .questions-section-img{
+        width: 400px;
+        height: 320px;
+    }
+    .question1-div,.question2-div,.question3-div{
+        width:400px;
+        height:50px;
+    }
+}
+@media (max-width:465px){
+    .questions-section-img{
+        width: 365px;
+        height: 300px;
+    }
+    .question1-div,.question2-div,.question3-div{
+        width:365px;
+        height:60px;
+        padding: 30px 30px ;
+    }
+}
+@media (max-width:405px){
+    .questions-section-img{
+        width: 330px;
+        height: 270px;
+    }
+    .question1-div,.question2-div,.question3-div{
+        width:330px;
+    }
+}
+@media (max-width:350px){
+    .questions-section-img{
+        width: 300px;
+        height: 240px;
+    }
+    .question1-div,.question2-div,.question3-div{
+        width:300px;
+        height:80px;
+    }
+}

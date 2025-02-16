@@ -1,0 +1,243 @@
+.pricing-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.pricing-section-heading-div{
+    text-align: center;
+}
+.pricing-section-first-heading{
+    font-size: 16px;
+    color: var(--new-color);
+}
+.pricing-section-second-heading{
+    font-size: 35px;
+    color: var(--bg-color);
+}
+.pricing-cards-div1,.pricing-cards-div2,.pricing-cards-div3{
+    width: 416px;
+    height: 668px;
+    padding-top: 40px;
+    padding-left: 20px;
+    background-color: var(--defualt-bg-color);
+    border-radius: 15px;
+}
+.pricing-cards-container{
+    display: grid;
+    grid-template-columns: 416px 416px 416px;
+    gap: 20px;
+    padding-top: 50px;
+}
+.pricing-cards-first-heading{
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--bg-color);
+}
+.pricing-cards-second-heading{
+    padding-top: 7px;
+    font-size: 14.5px;
+    font-weight: 450;
+    color: #444444;
+}
+.pricing-cards-prize-div{
+    padding-top: 30px;
+}
+.prize-div{
+    font-size: 40px;
+    color: var(--primary-color);
+    display: flex;
+    position: relative;
+}
+.pricing-deal-month{
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+    font-size: 18px;
+    position: absolute;
+    left: 60px;
+    top: 40px;
+}
+#month2,#month3{
+    left: 90px;
+}
+.pricing-buttons-div{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pricing-button{
+    width: 336px;
+    height: 46px;
+    border: none;
+    border: 1.3px solid #444444;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    color: var(--new-color);
+
+}
+.pricing-button:hover{
+    background-color: var(--primary-color);
+    border: 1.3px solid var(--primary-color);
+    transition: 0.5s all ease;
+    color: var(--text-color);
+}
+.pricing-button-below-text{
+    color: var(--new-color);
+    font-size: 16px;
+    padding-left: 85px;
+}
+.pricing-points{
+    padding-top: 20px;
+}
+ul li{
+    list-style-type: none;
+    padding-top: 25px;
+}
+@media (max-width:1500px){
+    .pricing-cards-div1,.pricing-cards-div2,.pricing-cards-div3{
+        width: 390px;
+    }
+    .pricing-cards-container{
+        grid-template-columns:390px 390px 390px;
+    }
+}
+@media (max-width:1380px){
+    .pricing-cards-div1,.pricing-cards-div2,.pricing-cards-div3{
+        width: 350px;
+    }
+    .pricing-cards-container{
+        grid-template-columns:350px 350px 350px;
+    }
+
+    ul li{
+        padding-top: 15px;
+    }
+    .pricing-button{
+        width: 300px;
+        height: 40px;
+    }
+    .pricing-button-below-text{
+        padding-left: 70px;
+    }
+}
+@media (max-width:1140px) {
+    .pricing-cards-div1,.pricing-cards-div2,.pricing-cards-div3{
+        width: 290px;
+    }
+    .pricing-cards-container{
+        grid-template-columns:290px 290px 290px;
+    }
+    .pricing-button{
+        width: 250px;
+        height: 40px;
+    }
+    .pricing-button-below-text{
+        padding-left: 46px;
+    }
+}
+@media (max-width:1010px){
+    .pricing-cards-div1,.pricing-cards-div2,.pricing-cards-div3{
+        width: 360px;
+    }
+    .pricing-cards-container{
+        grid-template-columns:360px 360px;
+    }
+    .pricing-button{
+        width: 300px;
+        height: 45px;
+    }
+    .pricing-button-below-text{
+        padding-left: 60px;
+    }
+}
+@media (max-width:830px){
+    .pricing-cards-div1,.pricing-cards-div2,.pricing-cards-div3{
+        width: 330px;
+    }
+    .pricing-cards-container{
+        grid-template-columns:330px 330px;
+    }
+    .pricing-button{
+        width: 270px;
+        height: 45px;
+    }
+}
+@media (max-width:730px){
+    .pricing-cards-div1,.pricing-cards-div2,.pricing-cards-div3{
+        width: 480px;
+    }
+    .pricing-cards-container{
+        grid-template-columns:480px;
+    }
+    .pricing-button{
+        width: 370px;
+        height: 50px;
+    }
+    .pricing-button-below-text{
+        padding-left: 105px;
+    }
+    .pricing-cards-container{
+        gap: 30px;
+    }
+}
+@media (max-width:520px){
+    .pricing-cards-div1,.pricing-cards-div2,.pricing-cards-div3{
+        width: 400px;
+    }
+    .pricing-cards-container{
+        grid-template-columns:400px;
+    }
+    .pricing-button{
+        width: 350px;
+        height: 50px;
+    }
+}
+@media (max-width:465px){
+    .pricing-cards-div1,.pricing-cards-div2,.pricing-cards-div3{
+        width: 365px;
+    }
+    .pricing-cards-container{
+        grid-template-columns:365px;
+    }
+    .pricing-button{
+        width: 320px;
+        height: 45px;
+    }
+    .pricing-button-below-text{
+        padding-left: 85px;
+    }
+}
+@media (max-width:405px) {
+    .pricing-cards-div1,.pricing-cards-div2,.pricing-cards-div3{
+        width: 330px;
+    }
+    .pricing-cards-container{
+        grid-template-columns:330px;
+    }
+    .pricing-button{
+        width: 280px;
+        height: 45px;
+    }
+    .pricing-button-below-text{
+        padding-left: 65px;
+    }
+}
+@media (max-width:350px){
+    .pricing-cards-div1,.pricing-cards-div2,.pricing-cards-div3{
+        width: 300px;
+    }
+    .pricing-cards-container{
+        grid-template-columns:300px;
+    }
+    .pricing-button{
+        width: 250px;
+        height: 45px;
+    }
+    .pricing-button-below-text{
+        padding-left: 45px;
+    }
+}
