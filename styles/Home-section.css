@@ -84,11 +84,7 @@
         font-size: 20px;
     }
 }
-@media (max-width:1705px){
-    .home-section{
-        padding: 0px 100px;
-    }
-}
+
 @media (max-width:1640px){
    .home-img{
     left: 220px;
@@ -130,6 +126,9 @@
     .home-img{
         width: 400px;
         height: 520px;
+    }
+    .home-section{
+        height: 800px;
     }
 }
 
