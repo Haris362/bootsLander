@@ -287,15 +287,22 @@
 }
 @media (max-width:370px){
     .first-card-div,.second-card-div,.third-card-div,.fourth-card-div{
-        width:90%;
+        width:98%;
     }
-    .about-section
-    {
+    .about-section{
         padding-left: 10px;
+    }
+}
+@media (max-width:360px){
+    .first-card-div,.second-card-div,.third-card-div,.fourth-card-div{
+        width:98%;
+    }
+    .about-section{
+        padding-left: 0px;
     }
 }
 @media (max-width:320px){
     .first-card-div,.second-card-div,.third-card-div,.fourth-card-div{
-        width:95%;
+        width:92%;
     }
 }
