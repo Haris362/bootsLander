@@ -220,7 +220,7 @@
     gap: 10px;
     width: 270px;
     height: 70px;
-    border: 0.1px solid #c5c5c5;
+    border: 1.5px solid #c5c5c5;
     /* background-color: rgb(150, 197, 20); */
     cursor: pointer;
     transition: 0.5s all ease;
